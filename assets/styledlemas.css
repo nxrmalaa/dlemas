@@ -1,0 +1,36 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    position: relative;
+    min-height: 100%;
+}
+.header{ 
+    background-image: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
+    padding: 25px 30px 25px 100px;
+}
+
+.footer {
+    grid-area: footer;
+    background-image: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    max-width: inherit;
+}
+
+
+#container {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    height: 100%;
+    margin: auto;
+    padding: 0%;
+    background-image: linear-gradient(to right, #d9a7c7, #fffcdc);
+}
